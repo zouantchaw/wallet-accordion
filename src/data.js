@@ -1,33 +1,33 @@
-const questions = [
+const wallets = [
   {
     id: 1,
-    title: 'Do I have to allow the use of cookies?',
-    info:
-      'Unicorn vinyl poutine brooklyn, next level direct trade iceland. Shaman copper mug church-key coloring book, whatever poutine normcore fixie cred kickstarter post-ironic street art.',
+    title: "Mobile wallets",
+    info: "Mobile wallets are light nodes that do not require users to download the entire blockchain. Mobile wallets are applications that can be installed on mobile devices as easily as any other application from Apple's App Store or Google Play, and can be used to access your funds using a cellular connection.",
   },
   {
     id: 2,
-    title: 'How do I change my My Page password?',
-    info:
-      'Coloring book forage photo booth gentrify lumbersexual. Migas chillwave poutine synth shoreditch, enamel pin thundercats fashion axe roof party polaroid chartreuse.',
+    title: "Desktop wallets",
+    info: "Desktop wallets run on operating systems (OS) like macOS, Microsoft Windows, or Linux OS. Desktop wallets are ideal for those who prefer to handle their finances on desktops. Because most desktop wallets keep keys locally, users will need to use their computers to access their Ethereum wallets.",
   },
   {
     id: 3,
-    title: 'What is BankID?',
-    info:
-      'Enamel pin fam sustainable woke whatever venmo. Authentic asymmetrical put a bird on it, lumbersexual activated charcoal kinfolk banjo cred pickled sartorial.',
+    title: "Web interfaces",
+    info: "Web interface wallets are a popular alternative to both mobile and desktop wallets, and are essentially websites that let users interact with the Ethereum blockchain after connecting their wallets to the interfaces.",
   },
   {
     id: 4,
-    title: 'Whose birth number can I use?',
-    info:
-      'Edison bulb direct trade gentrify beard lo-fi seitan sustainable roof party franzen occupy squid. Knausgaard cronut succulents, scenester readymade shabby chic lyft. Copper mug meh vegan gentrify.',
+    title: "Browser extensions",
+    info: "Browser extensions are used on desktop browsers to interact with decentralized applications and can store both ETH and ERC-20 tokens, all while supporting a nearly infinite number of addresses. To more advanced users, browser wallets are also useful because they can be used to interact with other blockchains.",
   },
   {
     id: 5,
-    title: 'When do I recieve a password ordered by letter?',
-    info:
-      'Locavore franzen fashion axe live-edge neutra irony synth af tilde shabby chic man braid chillwave waistcoat copper mug messenger bag. Banjo snackwave blog, microdosing thundercats migas vaporware viral lo-fi seitan ',
+    title: "Hardware wallets",
+    info: "Hardware wallets are pieces of hardware that store users' private keys offline and are, as such, cold wallets. Hardware wallets have to be connected to a computer for the funds to be moved and are password or PIN protected. To gain access to the funds, a malicious party would need physical access to the device and know the password protecting the funds. However, hardware wallets can be expensive for users with smaller amounts of funds to store.",
   },
-]
-export default questions
+  {
+    id: 6,
+    title: "Paper wallets",
+    info: "Paper wallets are a more basic type of cold wallet and essentially involve printing out the private keys that control the funds onto a piece of paper and storing it. To access the funds, malicious actors would need access to that piece of paper. The main advantage of this type of wallet is its accessibility, as all that is needed is a pen and a piece of paper.",
+  },
+];
+export default wallets;
